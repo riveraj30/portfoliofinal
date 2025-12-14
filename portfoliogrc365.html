@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michi Studio Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Libre+Baskerville:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Libre Baskerville', serif;
+      background-color: #FFC98A;
+      color: sienna;
+      line-height: 1.6;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-header {
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .logo {
+      font-family: 'Cherry Bomb One', cursive;
+      font-size: 2.5rem;
+      color: sienna;
+      background-color: #FFE9BF;
+      padding: 0.5rem 1.2rem;
+      width: fit-content;
+      margin: 0 auto 1.5rem auto;
+      border-radius: 12px;
+    }
+    nav {
+      margin-bottom: 0.5rem;
+    }
+    .nav-links {
+      list-style: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0 auto;
+      background-color: #FFE9BF;
+      width: fit-content;
+      border-radius: 999px;
+    }
+    .nav-links li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+    .nav-links a {
+      color: sienna;
+      font-size: 1rem;
+    }
+    .shop-link {
+      display: block;
+    }
+    .shop-card {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: 0.5rem auto 2rem auto;
+    }
+    .shop-card img {
+      width: 100%;
+      display: block;
+	border-radius: 12px;
+    }
+    .shop-text {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Cherry Bomb One', cursive;
+      font-size: 40pt;
+      color: sienna;
+      text-align: center;
+      text-shadow: 2px 2px 6px #F5A627;
+      pointer-events: none;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    .hero h2 {
+      font-family: 'Cherry Bomb One', cursive;
+      font-size: 2.5rem;
+      color: sienna;
+      margin-bottom: 0.5rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project a:hover img {
+      transform: scale(1.03);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .about {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .about h2 {
+      font-family: 'Cherry Bomb One', cursive;
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+	  color:sienna;
+    }
+    .site-footer {
+      padding: 2rem;
+      font-size: 0.9rem;
+      text-align: center;
+	  color: sienna;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="logo">Michi Studio Shop</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="https://www.etsy.com/shop/MichistudioShop" target="_blank">Shop</a></li>
+        <li><a href="https://riveraj30.github.io/typeforms/" target="_blank">About</a></li>
+        <li><a href="https://riveraj30.github.io/formss/" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <a href="https://www.etsy.com/shop/MichistudioShop" target="_blank" class="shop-link">
+    <div class="shop-card">
+      <img src="shop12.jpg" alt="Michi Studio Shop">
+      <div class="shop-text">New Items in Stock!</div>
+    </div>
+  </a>
+  <section class="hero">
+	  <h2>Visual Designer & Creative Maker</h2>
+    <p>A curated selection of projects from stickers to keychains. Click the item to take you to the product! </p>
+  </section>
+  <main class="projects">
+    <article class="project">
+      <a href="https://www.etsy.com/listing/4415150197/waterproof-smiski-berry-cute-sticker?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_3&frs=1&logging_key=dd085243282c52cbd0a28561f54c56db8a9b58ae%3A4415150197" target="_blank">
+        <img src="smiskiberry.jpg" alt="Smiski Berry">
+        <p>Smiski Berry</p>
+      </a>
+    </article>
+
+    <article class="project">
+      <a href="https://www.etsy.com/listing/4415146500/waterproof-smiski-sticker-inspired?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_1&frs=1&logging_key=98698719c65c3a07fed025b05087f09bed0a4004%3A4415146500" target="_blank">
+        <img src="smiskiorange.jpg" alt="Smiski Orange">
+        <p>Smiski Orange</p>
+      </a>
+    </article>
+
+    <article class="project">
+      <a href="https://www.etsy.com/listing/4415145650/waterproof-smiski-tuttifrutti-sticker?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_2&frs=1&logging_key=5565760d8e4611bf81a7ad01f08a86738cf61cf4%3A4415145650" target="_blank">
+        <img src="smiskituttifrutti.jpg" alt="Smiski Tutti Frutti">
+        <p>Smiski Tutti Frutti</p>
+      </a>
+    </article>
+
+    <article class="project">
+        <img src="keychainn.png" alt="Smiski Keychain">
+        <p>Smiski Keychain</p>
+    </article>
+  </main>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a design student focused on typography, web design, and handmade creative projects.
+      This portfolio showcases selected coursework and personal work.
+    </p>
+  </section>
+  <footer class="site-footer">
+    2025 Michi Studio ·
+    <a href="mailto:michistudioshop@gmail.com">michistudioshop@gmail.com</a> ·
+    Instagram @michistudioshop
+  </footer>
+
+</body>
+</html>
